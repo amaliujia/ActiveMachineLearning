@@ -1,0 +1,9 @@
+D.
+Compare to 10 experts, 100 shows somewhat unstable in both regrets curve and losses curve. It is sure that 100 has higher average regrets and losses.
+
+E. Increaing experts both increase model losses, and the converged value of regrets. It turns out, if still using randomly choosing model approach, increasing experts only increases overall regrets. It makes sense because variance should increase when adding more samples.
+
+F.
+Weighted selected expert is better than randomly chosen one. After enough updates, weighted expert works better than the best model in our candidates.
+
+G. My experiments shows only 30 to 40 test needs for find the best model.
